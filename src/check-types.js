@@ -51,6 +51,7 @@
     { n: 'instance', f: instance, s: 'be {t}' },
     { n: 'like', f: like, s: 'be like {e}' },
     { n: 'array', f: array, s: 'be Array' },
+    { n: 'nan', f: nan, s: 'be NaN' },
     { n: 'emptyArray', f: emptyArray, s: 'be empty array' },
     { n: 'nonEmptyArray', f: nonEmptyArray, s: 'be non-empty array' },
     { n: 'arrayLike', f: arrayLike, s: 'be array-like' },
@@ -191,7 +192,7 @@
    * Returns true if `data` is a number, false otherwise.
    */
   function number (data) {
-    return typeof data === 'number' && data > neginf && data < posinf;
+    return instance(data, Number) && data > neginf && data < posinf;
   }
 
   /**
@@ -318,7 +319,7 @@
    * Returns true if `data` is a string, false otherwise.
    */
   function string (data) {
-    return typeof data === 'string';
+    return instance(data, String);
   }
 
   /**
@@ -354,7 +355,7 @@
    * Returns true if `data` is a boolean value, false otherwise.
    */
   function boolean (data) {
-    return data === false || data === true;
+    return instance(data, Boolean);
   }
 
   /**
@@ -489,6 +490,15 @@
    */
   function array (data) {
     return isArray(data);
+  }
+
+  /**
+   * Public function `nan`.
+   *
+   * Returns true if `data` is NaN, false otherwise.
+   */
+  function nan (data) {
+    return isNaN(data);
   }
 
   /**

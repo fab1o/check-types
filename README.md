@@ -369,6 +369,11 @@ These are implemented by
   if `thing` is an even number,
   `false` otherwise.
 
+* `check.nan(thing)`:
+  Returns `true`
+  if `thing` is NaN,
+  `false` otherwise.
+
 #### Boolean predicates
 
 * `check.boolean(thing)`:

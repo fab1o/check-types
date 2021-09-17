@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/check-types",
-  "version": "12.0.2",
+  "version": "12.1.0",
   "description": "A little library for asserting types and values.",
   "license": "MIT",
   "author": "Phil Booth <pmbooth@gmail.com> (https://philbooth.me/)",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "chai": "4.2.x",
     "jshint": "^2.9.7",
-    "mocha": "5.2.x",
+    "mocha": "9.1.1",
     "please-release-me": "^2.1.2",
     "uglify-js": "3.4.x"
   },

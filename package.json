@@ -1,6 +1,6 @@
 {
   "name": "@fab1o/check-types",
-  "version": "12.1.0",
+  "version": "12.2.0",
   "description": "A little library for asserting types and values.",
   "license": "MIT",
   "author": "Phil Booth <pmbooth@gmail.com> (https://philbooth.me/)",
@@ -10,12 +10,12 @@
   "main": "./src/check-types",
   "repository": {
     "type": "git",
-    "url": "https://github.bamtech.co/fed-packages/check-types"
+    "url": "https://github.com/fab1o/check-types"
   },
   "bugs": {
-    "url": "https://github.bamtech.co/fed-packages/check-types/issues"
+    "url": "https://github.com/fab1o/check-types/issues"
   },
-  "homepage": "https://github.bamtech.co/fed-packages/check-types",
+  "homepage": "https://github.com/fab1o/check-types",
   "keywords": [
     "type",
     "types",

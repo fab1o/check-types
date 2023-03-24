@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "no-sparse-arrays": "off",
+    "no-extend-native": "off",
+    "no-unused-vars": "off",
+    "object-shorthand": "off",
+    "symbol-description": "off"
+  }
+}
